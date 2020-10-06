@@ -1,0 +1,19 @@
+# Options +ExecCGI
+# Options +Indexes
+
+php_flag display_errors on
+php_flag display_startup_errors on
+
+
+#   php_flag asp_tags Off
+#   php_flag display_errors Off
+ #  php_value max_execution_time 200
+#   php_value max_input_time 60
+ #  php_value max_input_vars 1000
+#   php_value memory_limit 640M
+ #  php_value post_max_size 8M
+   php_value session.gc_maxlifetime 3
+#   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+#   php_value upload_max_filesize 50M
+#   php_flag zlib.output_compression Off
+   php_value session.cookie_lifetime 120960

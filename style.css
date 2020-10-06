@@ -1,0 +1,20 @@
+.gradient{
+/* блок с классом "gradient" */
+width:260px; /* длина блока */
+border:1px solid #ccc; /* бордюры блока */
+background-image: -moz-linear-gradient(top, #ffffff, #cccccc); /* пишем градиент для Firefox 3.6 */
+background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cccccc),color-stop(1, #ffffff)); /* пишем градиент для Safari & Chrome */
+
+
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#cccccc'); /* для IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#cccccc')"; /* для IE8 */
+padding: 10px; /* внутренние отступы */
+color:#333; /* цвет текста */
+margin-left:290px; /* внешний отступ слева */
+}
+
+.gradient.lft{
+/* левый блок с классом "gradient lft" */
+float:left; /* обтекание слева */
+margin-left:0px; /* убираем левый отступ */
+}

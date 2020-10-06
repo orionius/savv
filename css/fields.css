@@ -1,0 +1,368 @@
+/*///////////////////////////////////////блоки //////////////////////////////////////////////////////*/
+.genblock
+{  
+margin:auto;
+ position: absolute; /* Абсолютное позиционирование */
+left: 3%; /* Положение элемента от левого края */
+
+
+top: 60px; /* Положение от верхнего края */
+width: 1750px; /* Ширина блока */
+height:800px;
+padding: 5px; /* Поля вокруг текста */
+
+overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если больше блока */
+background: url(images/block_fon.jpg)  no-repeat center center fixed;  background-size: cover;/* Цвет фона, путь к фоновому изображению и повторение фона по вертикали */   
+
+  margin:3px 3px 3px 5px; 
+box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Параметры тени */
+ margin: auto; /* Выравниваем по центру */   
+           padding: 5px; 
+             text-align: left;
+                border-radius: 4px;
+                  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px; 
+-moz-background-size: 100%; /* Firefox 3.6+ */
+-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+-o-background-size: 100%; /* Opera 9.6+ */
+background-size: 100%; /* Современные браузеры */
+opacity: 0.9; /* Значение прозрачности */
+                }   
+
+/*///////////////////////////Нулевый//////////////////////////////////*/
+#field_null {
+
+  width: 0px; /* Ширина поля в пикселах */
+  font-size: 0px; 
+  text-align: left;
+visibility:hidden;  
+border-width :0;
+  } 
+
+
+
+    /*/////////////////////////////////////////ПОЛЯ ДЛЯ ШАПКИ 20 PX//////////////////////////////////*/
+
+                                 #pole_add_produkt {
+
+                                  width: 1000px; /* Ширина поля в пикселах */
+                                  font-size: 20px; 
+                                  text-align: left;
+                                   font-family:'amaze';
+                                   font-weight:bold;
+                                  
+                                  } 
+                                  #pole_add_produkt_ser {
+
+                                    width: 200px; /* Ширина поля в пикселах */
+                                    font-size: 20px; 
+                                    text-align: left;
+                                     font-family:'amaze';
+                                     font-weight:bold;
+                                    
+                                    } 
+    
+    #pole_shap_note {
+    
+        width: 700px; /* Ширина поля в пикселах */
+        font-size: 20px; 
+        text-align: left;
+         font-family:'amaze';
+         font-weight:bold;
+        
+        } 
+        #pole_shap_number {
+    
+            width: 100px; /* Ширина поля в пикселах */
+            font-size: 20px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+            background: #f0f0f0 !important;
+            outline: none;
+            border-color : #f0f0f0 ;
+            border-width :0;
+            } 
+            
+            #field_datafiltr {
+    
+                width: 200px; /* Ширина поля в пикселах */
+                font-size: 20px; 
+                text-align: center;
+                 font-family:'amaze';
+                 font-weight:bold;
+                background: #f0f0f0 !important;
+                outline: none;
+                border-color : #383030 ;
+                border-width :1;
+                } 
+                #field_null {
+                    width: 0px; /* Ширина поля в пикселах */
+                    font-size: 15px; 
+                    text-align: center;
+                     font-family:'apple-system';
+                     font-weight:bold;
+                     white-space: nowrap;
+                 visibility:hidden;
+                    } 
+                
+
+        /*////////////////////////////////14 px///////////////////////////////////////////////////////////////*/
+        
+        
+        
+        
+                                     #input_pole_150_center {
+        
+            width: 150px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+        
+         
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+        
+        
+        
+        
+                                     #pole_id {
+        
+            width: 80px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                /*     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+           #pole_ser100 {
+        
+            width: 100px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: left;
+            font-family:'amaze';
+            font-weight:bold;
+       
+          text-align: left;
+                    background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+
+
+                                     #pole_phone {
+        
+            width: 100px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+        
+                                        #input_pole_100 {
+        
+            width: 100px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+                                           #input_pole_100_nocol {
+        
+            width: 100px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                  /*   background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+        
+                                           #input_pole_300 {
+        
+            width: 265px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+        
+                                        #pole_pic {
+        
+            width: 20px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+                text-align: center;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+                                     #pole_name {
+        
+            width: 600px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: left;
+             font-family:'amaze';
+             font-weight:bold;
+        
+           text-align: left;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+                                     #input_pole_80 {
+        
+            width: 80px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: right;
+             font-family:'amaze';
+             font-weight:bold;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+           } 
+        
+                                     #input_pole_150 {
+        
+            width: 150px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: left;
+             font-family:'amaze';
+             font-weight:bold;
+        
+           text-align: left;
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+                                     #input_pole_150_center {
+        
+            width: 150px; /* Ширина поля в пикселах */
+            font-size: 14px; 
+            text-align: center;
+             font-family:'amaze';
+             font-weight:bold;
+        
+         
+                     background: rgba(248, 248, 255, 0.8); /* Цвет фона */
+        
+        
+           } 
+        /*------------------------------12 px----------------------------------------------*/
+
+   #gradient {
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #808080, #ececec);
+      }
+      #field_id12_40px {
+
+        width: 40px; /* Ширина поля в пикселах */
+        font-size: 12px; 
+        text-align: center;
+         font-family:'amaze';
+         font-weight:bold;
+    
+       }  
+                                     #field_quant12_40px {
+
+    width: 40px; /* Ширина поля в пикселах */
+    font-size: 12px; 
+    text-align: center;
+     font-family:'amaze';
+     font-weight:bold;
+
+   } 
+                             #field_note12_100px {
+
+    width: 100px; /* Ширина поля в пикселах */
+    font-size: 12px; 
+    text-align: center;
+     font-family:'amaze';
+     font-weight:bold;
+
+   } 
+                             #field_algo12_100px {
+
+    width: 100px; /* Ширина поля в пикселах */
+    font-size: 12px; 
+    text-align: center;
+     font-family:'amaze';
+     font-weight:bold;
+
+   } 
+                                #field_n_doc12_50px {
+
+    width: 50px; /* Ширина поля в пикселах */
+    font-size: 12px; 
+    text-align: right;
+     font-family:'amaze';
+     font-weight:bold;
+
+   } 
+                                   #field_name12_400px {
+
+    width: 400px; /* Ширина поля в пикселах */
+ max-width:400;    
+    font-size: 12px; 
+    text-align: left;
+     font-family:'amaze';
+     font-weight:bold;
+ resize: none;
+
+   } 
+   #field_vers_syst40px {
+
+    width: 40px; /* Ширина поля в пикселах */
+ max-width:400;    
+    font-size: 12px; 
+    text-align: center;
+     font-family:'amaze';
+     font-weight:bold;
+ resize: none;
+
+   } 
+   #field_nameboadrd {
+
+    width: 400px; /* Ширина поля в пикселах */
+    font-size: 12px; 
+    text-align: left;
+     font-family:'amaze';
+    }
+    #field_nameboadrd12_600 {
+
+      width: 600px; /* Ширина поля в пикселах */
+      font-size: 12px; 
+      text-align: left;
+       font-family:'amaze';
+      }
+
+    #field_statusready {
+
+      width: 100px; /* Ширина поля в пикселах */
+      font-size: 12px; 
+      text-align: left;
+       font-family:'amaze';
+      }
+  
+   /*/////////////////////11 PX ////////////////////////////////*/
+
