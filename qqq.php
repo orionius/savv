@@ -28,7 +28,6 @@ html, body{
 
 
 <script type="text/javascript">
-
 var RENDERER = {
 	BASE_PARTICLE_COUNT : 50,
 	WATCH_INTERVAL : 100,
